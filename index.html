@@ -31,7 +31,7 @@
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
-                        <a href="#project" class="nav-link">Projects</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
@@ -41,7 +41,7 @@
                 </ul>
             </div>
             <div class="nav-button">
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                <button class="btn" onclick= "openPdf()">Download CV <i class="uil uil-file-alt"></i></button>
             </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -64,14 +64,13 @@
                     </div>
                     <div class="featured-text-button">
                         <button class="btn blue-btn">Hire Me</button>
-                        <button class="btn">Download CV<i class="uil uil-file-alt"></i></button>
+                        <button class="btn" onclick= "openPdf()">Download CV<i class="uil uil-file-alt"></i></button>
                     </div>
                     <div class="social_icons">
-                        <div class="icon"><i class="uil uil-instagram"></i></div>
-                        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-dribbble"></i></div>
-                        <div class="icon"><i class="uil uil-github-alt"></i></div>
-
+                        <div class="icon"><a href="https://github.com/Teetaiwo22" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/taiwo-emmanuel-2a0b0a1a6" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://x.com/TeeTaiwo8" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+                        <div class="icon"><a href=""><i class="uil uil-dribbble"></i></a></div>
                     </div>
                 </div>
                 <div class="featured-image">
@@ -86,6 +85,7 @@
                     </a>
                 </div>
             </section>
+
              <!-------------------- ABOUT BOX --------------------->
             <section class="section" id="about">
                 <div class="top-header">
@@ -99,7 +99,7 @@
                                 frameworks and libraries which allow me to implement interactive features.
                             </p>
                             <div class="about-btn">
-                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                                <button class="btn" onclick= "openPdf()">Download CV <i class="uil uil-import"></i></button>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                                 <span>React</span>
                             </div>
                         </div>
-                        <div class="skills-box">
+                        <!-- <div class="skills-box">
                             <div class="skills-header">
                                 <h3>Backend</h3>
                             </div>
@@ -135,10 +135,11 @@
                                 <span>PostgreSQL</span>
                                 <span>MongoDB</span>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section> 
+
             <!-------------------- PROJECT BOX --------------------->
             <section class="section" id="projects">
                 <div class="top-header">
@@ -148,20 +149,21 @@
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
                         <h3>Completed</h3>
-                        <label>15+ Finished Projects</label>
+                        <label>10+ Finished Projects</label>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-users-alt"></i>                       
                          <h3>Clients</h3>
-                        <label>25+ Happy Customers</label>
+                        <label>5+ Happy Customers</label>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-award"></i>                        
                         <h3>Experience</h3>
-                        <label>7+ Years in the field</label>
+                        <label>1+ Years in the field</label>
                     </div>
                 </div>
             </section>
+            
             <!-------------------- CONTACT BOX --------------------->
             <section class="section" id="contact">
                 <div class="top-header">
@@ -180,7 +182,7 @@
                         <div class="form-control">
                             <div class="form-inputs">
                                 <input type="text" class="input-field" placeholder="Name">
-                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
                             </div>
                             <div class="text-area">
                                 <textarea placeholder="Message"></textarea>
@@ -216,10 +218,10 @@
                 </ul>
             </div>
             <div class="footer-social-icons">
-                <div class="icon"><i class="uil uil-instagram"></i></div>
-                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                <div class="icon"><i class="uil uil-dribbble"></i></div>
-                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                <div class="icon"><a href="https://github.com/Teetaiwo22" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/taiwo-emmanuel-2a0b0a1a6" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://x.com/TeeTaiwo8" target="_blank"><i class="uil uil-twitter-alt"></i></a></div>
+                <div class="icon"><a href=""><i class="uil uil-dribbble"></i></a></div>
             </div>
             <div class="bottom-footer">
                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Emmanuel Taiwo</a> All right reserved</p>

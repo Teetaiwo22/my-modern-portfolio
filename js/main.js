@@ -8,6 +8,12 @@ function myMenuFunction(){
         menuBtn.className = "nav-menu"
     }
 }
+   /* opening my cv */
+
+function openPdf() {
+    window.open("asset/documents/My CV may.pdf", "_blank")
+}
+
 
 
 /* --------  ADD SHADOW ON NAVIGATION BAR ---------- */
@@ -47,7 +53,7 @@ const sr = ScrollReveal({
 
 /* ------- HOME ---------- */
 sr.reveal('.featured-text-card',{})
-sr.reveal('.featured-name',{delya: 100})
+sr.reveal('.featured-name',{delay: 100})
 sr.reveal('.featured-text-info',{delay: 200})
 sr.reveal('.featured-text-button',{delay: 200})
 sr.reveal('.social_icons',{delay: 200})
@@ -72,6 +78,7 @@ const srLeft = ScrollReveal({
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
 
+
 /* ------- ABOUT SKILLS & FORM BOX ---------- */
 const srRight = ScrollReveal({
     origin: 'right',
@@ -82,10 +89,12 @@ const srRight = ScrollReveal({
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
+
+
 /* ------- CHANGE ACTIVE LINK ---------- */
 const sections = document.querySelectorAll('section[id]')
 
-function scrollActive{
+function scrollActive() {
     const scrollY = window.scrollY
 
     sections.forEach(current =>{

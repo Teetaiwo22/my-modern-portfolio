@@ -11,7 +11,7 @@ function myMenuFunction(){
    /* opening my cv */
 
 function openPdf() {
-    window.open("asset/documents/My CV may.pdf", "_blank")
+    window.open("asset/documents/My-CV.pdf", "_blank")
 }
 
 
